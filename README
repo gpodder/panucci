@@ -1,37 +1,44 @@
-Panucci is a resuming podcast and audiobook player with bookmark support.
 
-WEB SITE:
-        http://gpodder.org/panucci
+                   Panucci - An audiobook and podcast player
+                   -----------------------------------------
 
-GIT:
-        https://github.com/xerxes2/panucci
+With Panucci, you can play audio books, podcasts and live concerts. It will
+automatically resume the playback from the position where you stopped last
+time. Bookmarks are also supported. The interface has elements big enough to be
+used with your fingers. If you installed support for screen rotation, Panucci
+does support portrait mode in addition to landscape mode.
 
-MAILING LIST:
-        https://lists.berlios.de/mailman/listinfo/gpodder-panucci
+Authors: Jens Persson (current maintainer), Nick Nobody and Thomas Perl
 
-IRC:
-        #gpodder on irc.freenode.org
 
-BUG REPORTS:
-        https://bugs.gpodder.org/enter_bug.cgi?product=Panucci
+Dependencies
+------------
 
-AUTHOR:
-        Thomas Perl and Jens Persson with friends
+ * Python (2.x)
+ * GStreamer (with python bindings)
+ * Sqlite
+ * Mutagen
+ * GTK (2.x with python bindings)(optional)
+ * Qt (4.7.x with PySide bindings)(optional)
 
-REQUIREMENTS:
-        Python (2.x)
-        GStreamer (with python bindings)
-        Sqlite
-        Mutagen
-        GTK (2.x with python bindings)(optional)
-        Qt (4.7.x with PySide bindings)(optional)
 
-INSTALL:
-        $ make install
+Contributors
+------------
 
-CONTRIBUTE:
-        1. $ git clone git://github.com/xerxes2/panucci.git
-        2. $ cd panucci
-        3. Make your changes.
-        4. $ git diff HEAD > panucci.patch
-        5. Send the patch with personal information "fname lname <name@example.com>".
+See:
+
+    git shortlog | \
+        sed -e 's/\(.*\) (\([0-9]*\)):/\2 \1/' \
+            -e '/^[^0-9]/d' -e '/^$/d' | \
+        sort -nr
+
+
+Contact Information
+-------------------
+
+  Web: http://wiki.gpodder.org/wiki/Panucci
+  Git: https://github.com/gpodder/panucci
+  Mailing List: http://www.freelists.org/list/gpodder
+  IRC: #gpodder on irc.freenode.org
+  Bug reports: https://bugs.gpodder.org/enter_bug.cgi?product=Panucci
+
